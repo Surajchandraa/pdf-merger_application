@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf merger application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    form{
+        width: 500px;
+        margin: auto;
+    }
+
+   #btn{
+     margin: 0px 170px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+   }
+  
+   .main{
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    box-shadow: inset;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+   }
+   #btn:hover{
+    opacity: 0.8;
+   }
+   label{
+    margin: 0px 60px;
+   }
+
+   #example{
+    margin: 0px 60px;
+   }
+  
+</style>
+<body>
+    <div class="main">
+    <h1><i>pdf merger application </i></h1>
+
+    
+        <form action="/merge" method="post" enctype="multipart/form-data">
+            <label for="example"> select the pdf files you want to merge</label>
+            <input type="file" name="pdfs" class="form-control-file" id="example" multiple accept=".pdf">
+            <br><br>
+            <input id="btn" type="submit">
+
+        </form>
+
+        </div>
+   
+</body>
+</html>
