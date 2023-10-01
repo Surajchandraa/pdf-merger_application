@@ -16,3 +16,6 @@ this is a web application which can merge pdf files and create a new pdf file. y
 
 ## choose files:
 <img src="https://github.com/Surajchandraa/pdf-merger_application/blob/main/screenshots/file_choosed_and_submit.png" width="600" heigth="500" placeholder="image of ui">
+
+## merged pdf:
+<img src="https://github.com/Surajchandraa/pdf-merger_application/blob/main/screenshots/merged_pdf.png" width="600" heigth="500" placeholder="image of merged pdf">
