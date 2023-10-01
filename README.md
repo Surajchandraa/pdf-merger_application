@@ -14,3 +14,5 @@ this is a web application which can merge pdf files and create a new pdf file. y
 - once application is opened in your browser, go to browse section and select two pdf files [you can select two together by pressing control and left click].
 - submit pdf files and your pdf will be merged you can download merged pdf file.
 
+## choose files:
+<img src="https://github.com/Surajchandraa/pdf-merger_application/blob/main/screenshots/file_choosed_and_submit.png" width="600" heigth="500" placeholder="image of ui">
